@@ -8,15 +8,28 @@
 
 header {
     font-family: rubik gemstones, sans-serif;
-    font-weight: 300;
 }
-
-nav {
+ nav{
     font-family: rubik gemstones, sans-serif;
-    font-weight:300;
-}
+    
+ }
 
-body {
+ body {
     font-family: lato, sans-serif;
     font-weight: 300;
-}
+    color: #3a3a3a;
+ }
+
+ /* logo and headings*/
+ h1, h2 {
+    font-family: rubik gemstones,sans-serif;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+ }
+ 
+ #logo {
+    float: left;
+    font-size:280%;
+ }
