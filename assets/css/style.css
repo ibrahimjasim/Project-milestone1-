@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
+   
+
+    
 }
+
 
 header {
     font-family: rubik gemstones, sans-serif;
@@ -26,6 +30,8 @@ header {
     color: #2a2a2a;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
+    
 
  }
  
@@ -33,3 +39,34 @@ header {
     float: left;
     font-size:280%;
  }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
