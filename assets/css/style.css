@@ -24,3 +24,35 @@
     float: left;
     font-size: 260%;
  }
+
+ /* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: rubik moonrocks, sans-serif;
+    color: #8B008B;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #8B008B;
+}
+
+.active {
+    border-bottom: 1px solid #8B008B;
+}
