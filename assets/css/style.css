@@ -77,31 +77,25 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 #cover-text, #cover-text h2 {
     color: #8B008B;
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: lato sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    width: 300px;
-    height: 200px;
-    
-    padding-top: 40px;
-    padding-left: 10px;
 
-    background-color: rgba(102,255,255,0.3) ;
     
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
+ #cover-text p {
+    font-size: 70%;
+    font-family: lato sans-serif; 
+    
     
 
 }
+
+    
+
 
 
 
@@ -118,4 +112,29 @@
         transform: scale(1.1);
 
     }
+}
+
+
+/* page ethos */
+
+#page-ethos {
+    height: 700px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    
+    width: 33%;
+    margin: 0 auto;
 }
