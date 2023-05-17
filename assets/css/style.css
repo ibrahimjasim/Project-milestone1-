@@ -41,8 +41,8 @@
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    font-family: rubik moonrocks, sans-serif;
-    color: #8B008B;
+    font-family: lato, sans-serif;
+    color: #3a3a3a;
 }
 
 #menu a {
@@ -55,4 +55,42 @@
 
 .active {
     border-bottom: 1px solid #8B008B;
+}
+
+/* main-image */
+
+#main-image {
+    height: 700px;
+    width: 100%;
+    background: url("../images/40513\ \(2\).jpg") no-repeat center center;
+
+ /* animation zoom effect on loding page */
+
+ animation-name: main-zoom;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
+
+}
+
+#image-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+ /* create the level of zoom for mainimage */
+
+@keyframes main-zoom {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
 }
