@@ -13,7 +13,7 @@
  } 
 
  /* heading and logo */ 
- h1 {
+ h1, h2{
     font-family: rubik moonrocks, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -153,6 +153,7 @@ hr {
     margin: 5px auto;
 }
 
+ 
 .right-about-heading {
     width: 60%;
     float: left;
@@ -167,4 +168,29 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 250%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-width: 1px;
+    margin: 0 auto;
+    border-style: dotted;
+    border-radius: 20%;
+    
+}
+
+#circle-cover-bg {
+    background: url("../images/38920\ \(1\).jpg") no-repeat center center;
+    height: 110%;
+    border-radius: 20%;
+    
+    
 }
