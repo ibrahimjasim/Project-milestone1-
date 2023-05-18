@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Moonrocks&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
    body {
-    font-family: lato, sans-serif;
+    font-family: oswald, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
  } 
@@ -60,7 +60,7 @@
 /* main-image  and cover text*/
 
 #main-image {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background: url("../images/40513\ \(2\).jpg") no-repeat center center;
 
@@ -73,7 +73,7 @@
 }
 
 #image-outer {
-    height: 700px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -118,7 +118,7 @@
 /* page ethos */
 
 #page-ethos {
-    height: 700px;
+    height: 800px;
 }
 
 #left-about {
@@ -137,4 +137,34 @@
     
     width: 33%;
     margin: 0 auto;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted #8B008B;
+    margin: 5px auto;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
