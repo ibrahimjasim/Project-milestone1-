@@ -6,34 +6,36 @@
     border: none;
 }
 
-   body {
+body {
     font-family: oswald, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
- } 
+}
 
- /* heading and logo */ 
- h1, h2{
+/* heading and logo */
+h1,
+h2 {
     font-family: rubik moonrocks, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #8B008B;
- }
+}
 
- #logo {
+#logo {
     float: left;
     font-size: 260%;
- }
+}
 
- /* navigation links */
+/* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -64,11 +66,11 @@
     width: 100%;
     background: url("../images/40513\ \(2\).jpg") no-repeat center center;
 
- /* animation zoom effect on loding page */
+    /* animation zoom effect on loding page */
 
- animation-name: main-zoom;
- animation-duration: 5s;
- animation-fill-mode: forwards;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -77,30 +79,31 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    
+
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #8B008B;
 }
 
 
-    
- #cover-text p {
+
+#cover-text p {
     font-size: 70%;
-    font-family: lato sans-serif; 
-    
-    
+    font-family: lato sans-serif;
+
+
 
 }
 
-    
 
 
 
 
 
- /* create the level of zoom for mainimage */
+
+/* create the level of zoom for mainimage */
 
 @keyframes main-zoom {
     from {
@@ -135,7 +138,7 @@
 }
 
 #center-about {
-    
+
     width: 33%;
     margin: 0 auto;
 }
@@ -154,7 +157,7 @@ hr {
     margin: 5px auto;
 }
 
- 
+
 .right-about-heading {
     width: 60%;
     float: left;
@@ -185,16 +188,16 @@ hr {
     margin: 0 auto;
     border-style: dotted;
     border-radius: 20%;
-    
+
 }
 
 #circle-cover-bg {
     background: url("../images/38920\ \(1\).jpg") no-repeat center center;
     height: 100%;
     border-radius: 20%;
-    
-    
-    
+
+
+
 }
 
 /* about us */
@@ -206,15 +209,126 @@ hr {
 }
 
 #Schedule {
-    font-size: 70%;
-    float: left;
+    font-size: 100%;
+    text-align: center;
     color: #3a3a3a;
     margin: 1px;
     padding: 1px;
-    
+
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid #3a3a3a;
     padding: 0.5rem;
+    margin: 0 auto;
+
+
+}
+
+/* signup form */
+
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+button {
+    background-color: rgba(47, 117, 0, 0.38);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: rgba(248, 0, 26, 0.38);
+}
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container p {
+    font-weight: 200px;
+    font-size: 140%;
+    color: #8B008B;
+}
+
+
+
+
+
+/* footer */
+
+#contact {
+    text-align: center;
+    padding: 1%;
+}
+
+#contact p {
+    font-size: 130%;
+    margin-bottom: 2px;
+}
+
+footer {
+
+    height: 150px;
+}
+
+.social-net {
+    text-align: center;
+}
+
+.social-net>li {
+    display: inline;
+}
+
+.social-net i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
