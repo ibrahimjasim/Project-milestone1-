@@ -41,7 +41,7 @@
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    font-family: lato, sans-serif;
+    font-family: oswald, sans-serif;
     color: #3a3a3a;
 }
 
@@ -118,7 +118,8 @@
 /* page ethos */
 
 #page-ethos {
-    height: 800px;
+    height: 600px;
+    background-color: bisque;
 }
 
 #left-about {
@@ -189,8 +190,31 @@ hr {
 
 #circle-cover-bg {
     background: url("../images/38920\ \(1\).jpg") no-repeat center center;
-    height: 110%;
+    height: 100%;
     border-radius: 20%;
     
     
+    
+}
+
+/* about us */
+
+#about-us {
+    font-size: 150%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#Schedule {
+    font-size: 70%;
+    float: left;
+    color: #3a3a3a;
+    margin: 1px;
+    padding: 1px;
+    
+}
+
+table, th, td {
+    border: 2px solid #3a3a3a;
+    padding: 0.5rem;
 }
