@@ -122,7 +122,7 @@ h2 {
 
 #page-ethos {
     height: 600px;
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
 #left-about {
@@ -153,8 +153,9 @@ h2 {
 
 hr {
     border: none;
-    border-top: 1px dotted #8B008B;
-    margin: 5px auto;
+    border-top: 1px solid  #3a3a3a;
+    margin: 6px auto;
+    
 }
 
 
@@ -167,11 +168,11 @@ hr {
 }
 
 .right-about-heading h2 {
-    text-align: right;
+    text-align: left;
 }
 
 .right-about-heading p {
-    text-align: right;
+    text-align: left;
 }
 
 #welcome {
@@ -222,12 +223,16 @@ th,
 td {
     border: 2px solid #3a3a3a;
     padding: 0.5rem;
-    margin: 0 auto;
+    margin: 10px auto;
 
 
 }
 
 /* signup form */
+
+#action-page {
+    background-color: antiquewhite;
+}
 
 
 input[type=text],
@@ -247,7 +252,7 @@ input[type=password]:focus {
 }
 
 hr {
-    border: 1px solid #f1f1f1;
+    border: 1px solid #3a3a3a;
     margin-bottom: 25px;
 }
 
@@ -331,4 +336,41 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
+}
+
+/* media queries */
+/* for larger to medium screens sizes from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #page-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #léft-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    body {
+        background-color:antiquewhite;
+    }
 }
