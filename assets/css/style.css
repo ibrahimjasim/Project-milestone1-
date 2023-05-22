@@ -10,6 +10,7 @@ body {
     font-family: oswald, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: antiquewhite;
 }
 
 /* heading and logo */
@@ -373,4 +374,16 @@ footer {
     body {
         background-color:antiquewhite;
     }
+}
+
+/* for medium screen sizes from 950px wid and down */
+@media screen and (max-width: 1200px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
 }
