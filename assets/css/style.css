@@ -10,7 +10,7 @@ body {
     font-family: oswald, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: antiquewhite;
+
 }
 
 /* heading and logo */
@@ -154,9 +154,9 @@ h2 {
 
 hr {
     border: none;
-    border-top: 1px solid  #3a3a3a;
+    border-top: 1px solid #3a3a3a;
     margin: 6px auto;
-    
+
 }
 
 
@@ -346,7 +346,7 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-        
+
     }
 
     #welcome {
@@ -354,10 +354,11 @@ footer {
         margin: 0;
     }
 
-    #léft-about, #right-about {
+    #léft-about,
+    #right-about {
         width: 100%;
         float: left;
-        padding: 0;
+        padding: 0px;
     }
 
     #center-about {
@@ -372,18 +373,41 @@ footer {
     }
 
     body {
-        background-color:antiquewhite;
+        background-color: antiquewhite;
     }
 }
 
 /* for medium screen sizes from 950px wid and down */
-@media screen and (max-width: 1200px) {
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #page-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 
 }
