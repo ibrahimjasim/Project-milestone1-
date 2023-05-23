@@ -1,39 +1,94 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Math Magic
+Math Magic is a website that offeres online tutoring for kids aged 4-8. We understand that learning math is both challenging and intimidating for young children, that's why Math Magic offers experienced math tutors who crafted engaging and interactive lessons, specifically tailored to capture your child's imagination and make math enjoyable. We create a positive and supportive learning environment, where kids can boost their confidence, sharpen their problem-solving skills, and embrace the beauty of numbers.
+![Am I Responsive_ - Google Chrome 23_05_2023 11_23_42](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/ca9a1636-c268-47f0-af6f-5e5ec03b1b05)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+- Navigation 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+The navigation bar at the top shows the clickable name "Math Magic" that redirects to the top of the home page.
 
-## Codeanywhere Reminders
+There is also an "About Us" section that redirects to the corresponding section of the same page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The font, colorours and colour palette are fun, easy to read and engaging.
 
-`python3 -m http.server`
+The layout follows the natural logic of the questions that arise as parents/kids scroll through the website.
+![Math Magic - Google Chrome 23_05_2023 19_46_55](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/2d8de716-6484-49d3-8194-6735f00e6f42)
+- The Header
+ The header is a simple, fun and diverse image that is animated. The background is white/transparent and the colours follow the same scheme as the rest of the website.
+ ![Math Magic - Google Chrome 23_05_2023 19_54_53](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/24580a42-66dd-4b0b-a102-54b12b7c2155)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- About Us section
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  There is a simple table which shows the activities offered by Math Magic. The table is divided into rows showing the day, the activity and meeting times.
+  ![Math Magic - Google Chrome 23_05_2023 20_00_18](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/69dc064f-4542-4ef4-bec0-7c2a0c398daa)
+  
+- The Sign Up Form 
 
-`http_server`
+The form can be accessed by scrolling down the website or by clicking "Sign up" at the navigation field.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The Sign Up contains two fields: child's name and parent's e-mail address.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The colours are logical (green =ok) and (red=no). 
+  
+![Math Magic - Google Chrome 23_05_2023 20_04_34](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/239380f4-6c99-41fa-8952-cae72930ed59)!
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The Contact section
 
-To log into the Heroku toolbelt CLI:
+Parents can contact Math Magic by writing to the e-mail address provided.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+There is an option to follow Math Magic on Facebook, Instagram and Twitter by clicking the icons at the bottom of the page.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Math Magic - Google Chrome 23_05_2023 20_04_34](https://github.com/ibrahimjasim/Project-milestone1-/assets/127301769/b9f4315b-2aa4-4009-a9d1-c45ead1d0897)
 
----
 
-Happy coding!
+## Running Tests
+```bash
+- I tested that the website works on Internet Explorer, Google Chrome and Firefox.
+
+- I confirmed that the website is responsivve, redirects to the correct section/page, and functions on all standard screen sizes using the devtools device toolbar.
+
+- I confired that the navigation, animation, pages/sections and all readable are easy to read.
+
+- I havve tested and confirmed that the "Sign up" form works: requires enteries in both fields, will ojnly accept an e-mail address in the e-mail field and that the submit button works.
+```
+
+
+
+## Validator tasting
+
+- HTML
+
+ No error were reported while passing through the [W3C html Validator] (https://validator.w3.org/nu/#textarea)
+ 
+ - CSS
+ 
+ No error were reported while passing through the [W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
+ 
+ 
+ ## Credits
+ 
+- The layouts
+
+
+the layouts and codes are inspired by the <mark>CI Love Running Project</mark>
+
+-The Sign up form
+
+The Sign up form were inspired by the (www.w3schools.com)
+
+
+- Media 
+
+The images used on the Math Magic website were taken by [freepik} (https://www.freepik.com/premium-vector/set-girl-with-math-object_3387369.htm?query=kids%20studying&page=1&query=k&from_query=undefined&position=0&from_view=detail_alsolike&track=ais)
+ 
+
+
+
+
+
+
+
+
+
+
